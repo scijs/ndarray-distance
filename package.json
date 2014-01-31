@@ -1,0 +1,44 @@
+{
+  "name": "ndarray-distance",
+  "version": "0.0.0",
+  "description": "Lp distance between ndarrays",
+  "main": "dist.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "cwise": "^0.4.0"
+  },
+  "devDependencies": {
+    "almost-equal": "~0.0.0",
+    "tap": "~0.4.8",
+    "ndarray": "~1.0.10",
+    "tape": "~2.4.0"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/ndarray-distance.git"
+  },
+  "keywords": [
+    "distance",
+    "ndarray",
+    "sum",
+    "of",
+    "squared",
+    "absolute",
+    "chebyshev",
+    "taxicab",
+    "manhattan",
+    "metric",
+    "Lp"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/ndarray-distance/issues"
+  },
+  "homepage": "https://github.com/mikolalysenko/ndarray-distance"
+}
