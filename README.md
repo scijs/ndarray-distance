@@ -2,6 +2,8 @@ ndarray-distance
 ================
 Computes the [Lp distance](http://en.wikipedia.org/wiki/Lp_space) between two [ndarrays](https://github.com/mikolalysenko/ndarray).  Works both in node.js and in browserify.
 
+[![build status](https://secure.travis-ci.org/scijs/ndarray-distance.png)](http://travis-ci.org/scijs/ndarray-distance)
+
 ## Example
 
 ```javascript
@@ -22,19 +24,18 @@ var l1Dist = distance(a, b, 1)
 //And maximum distance
 var linfDist = distance(a, b, Infinity)
 
-//And any Lp interpolant
+//And any other Lp distance as well
 var l3Dist = distance(a, b, 3)
 ```
 
 ## Install
+Install using [npm](https://www.npmjs.com/):
 
-```
-npm install ndarray-distance
-```
+    npm install ndarray-distance
 
 ## API
 
-### `require("ndarray-distance")(a, b[, p])`
+#### `require("ndarray-distance")(a, b[, p])`
 Computes the Lp distance between two ndarrays `a` and `b`.  That is,
 
 ```
@@ -55,5 +56,5 @@ Special values of `p` include:
 
 **Returns** The Lp distance between `a` and `b`
 
-## Credits
+## License
 (c) 2014 Mikola Lysenko. MIT License

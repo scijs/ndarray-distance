@@ -1,28 +1,28 @@
 {
   "name": "ndarray-distance",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Lp distance between ndarrays",
   "main": "dist.js",
   "directories": {
     "test": "test"
   },
   "dependencies": {
-    "cwise": "^0.4.0"
+    "cwise": "^1.0.7"
   },
   "devDependencies": {
-    "almost-equal": "~0.0.0",
-    "tap": "~0.4.8",
-    "ndarray": "~1.0.10",
-    "tape": "~2.4.0"
+    "almost-equal": "^1.0.0",
+    "ndarray": "^1.0.18",
+    "tape": "^4.0.0"
   },
   "scripts": {
-    "test": "tap test/*.js"
+    "test": "tape test/*.js"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/mikolalysenko/ndarray-distance.git"
+    "url": "git://github.com/scijs/ndarray-distance.git"
   },
   "keywords": [
+    "scijs",
     "distance",
     "ndarray",
     "sum",
@@ -38,7 +38,6 @@
   "author": "Mikola Lysenko",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mikolalysenko/ndarray-distance/issues"
-  },
-  "homepage": "https://github.com/mikolalysenko/ndarray-distance"
+    "url": "https://github.com/scijs/ndarray-distance/issues"
+  }
 }
